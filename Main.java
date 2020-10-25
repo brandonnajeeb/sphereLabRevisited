@@ -4,9 +4,10 @@ class Main {
 
     // scan functions that recieve radius in inches
 
-    Scanner fromKey = new Scanner (System.in);
+    /*Scanner fromKey = new Scanner (System.in);
     System.out.print("Please enter an integer radius measurement (in inches):" );
-    int radiusInch1 = fromKey.nextInt();
+    int radiusInch1 = fromKey.nextInt(); */
+    int radiusInch1 = Sphere.askUser(); 
     System.out.print("Please enter an integer radius measurement (in inches):" );
     int radiusInch2 = fromKey.nextInt();
     System.out.print("Please enter an integer radius measurement (in inches):" );

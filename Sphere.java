@@ -1,3 +1,4 @@
+  import java.util.Scanner;
   class Sphere {
      
 
@@ -35,11 +36,16 @@
     return radiusCM;
   } // end of conversion method
 
-  /* public static void double printRow (double radius, double radiusCm, double volume, double surf)
+  // method that takes user input in inches
+
+  public static int askUser (int inchInput)
   {
-    System.out.printf("%f, %f, %f, %f\n", radius, radiusCm, vol, surface);
+    Scanner fromKey = new Scanner (System.in);
+    System.out.print("Please enter an integer radius measurement (in inches):" );
+    int radiusInput = fromKey.nextInt();
+    return radiusInput;
   }
-*/
+
   
   
   }// end of shere
