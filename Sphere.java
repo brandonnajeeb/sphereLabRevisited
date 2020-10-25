@@ -15,10 +15,10 @@
 
 // this method will calculate surface area
 
-  public static double surfaceArea (double radius)
+  public static double surfaceArea (double radius2)
   {
     // this will calculate the surface area using a given // radius
-    double surfaceArea = 4.0 * Math.PI * Math.pow(radius, 2.0);
+    double surfaceArea = 4.0 * Math.PI * Math.pow(radius2, 2.0);
     // suface area will be returned
     return surfaceArea;
   } // end of surface area
@@ -27,11 +27,11 @@
 
 
 
-  public static double convertRadius (double radius)
+  public static double convertRadius (double radius3)
 
   {
     double conversionConstant = 2.54;
-    double radiusCM = radius * conversionConstant;
+    double radiusCM = radius3 * conversionConstant;
     return radiusCM;
   } // end of conversion method
 
