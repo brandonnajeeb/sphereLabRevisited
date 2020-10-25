@@ -25,17 +25,24 @@
 
   // this method will convert inches to centimeters
 
+
+
   public static double convertRadius (double radius)
 
   {
     double conversionConstant = 2.54;
     double radiusCM = radius * conversionConstant;
     return radiusCM;
-  }
+  } // end of conversion method
 
-  
-  
+  /* public static void double printRow (double radius, double radiusCm, double volume, double surf)
+  {
+    System.out.printf("%f, %f, %f, %f\n", radius, radiusCm, vol, surface);
   }
+*/
+  
+  
+  }// end of shere
   
 
 
