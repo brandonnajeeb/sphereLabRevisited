@@ -1,3 +1,9 @@
+/* README! Program that prompts a user for 5 values in inches, the program converts those inches to centimeters and assigns them to a value radius. This radius is used to calculate the volume and surface area of the respective spheres 
+Brandon Najeeb
+10/25/20 
+*/
+
+
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
@@ -26,12 +32,12 @@ class Main {
 
 
     // print functions for each row of table
-
-    System.out.printf("%d %14.2f %13.2f %15.2f\n", /*radiusInch1, radiusCm1, Sphere.volume(radiusCm1), Sphere.surfaceArea(radiusCm1));
-    System.out.printf("%d %14.2f %13.2f %15.2f\n", radiusInch2, radiusCm2, Sphere.volume(radiusCm2), Sphere.surfaceArea(radiusCm2));
-    System.out.printf("%d %14.2f %13.2f %15.2f\n", radiusInch3, radiusCm3, Sphere.volume(radiusCm3), Sphere.surfaceArea(radiusCm3));
-    System.out.printf("%d %14.2f %13.2f %15.2f\n", radiusInch4, radiusCm4, Sphere.volume(radiusCm4), Sphere.surfaceArea(radiusCm4));
-    System.out.printf("%d %14.2f %13.2f %15.2f\n", radiusInch5, radiusCm5, Sphere.volume(radiusCm5), Sphere.surfaceArea(radiusCm5));*/
+    Sphere.printRow(radiusInch1, radiusCm1);
+    Sphere.printRow(radiusInch2, radiusCm2);
+    Sphere.printRow(radiusInch3, radiusCm3);
+    Sphere.printRow(radiusInch4, radiusCm4);
+    Sphere.printRow(radiusInch5, radiusCm5);
+    
     
     
   }

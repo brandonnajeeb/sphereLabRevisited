@@ -52,13 +52,13 @@
 
 
   // method that prints out table by row
-/*
+
   public static void printRow (int radiusIn, double radiusCm1)
   {
     
-    System.out.printf("%d %14.2f %13.2f %15.2f\n", radiusIn, radiusCm, Sphere.volume(radiusCm1), Sphere.surfaceArea(radiusCm1));
+    System.out.printf("%d %17.2f %17.2f %18.2f\n", radiusIn, radiusCm1, Sphere.volume(radiusCm1), Sphere.surfaceArea(radiusCm1));
   }
-*/
+
   
   
   }// end of shere
